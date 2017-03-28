@@ -9,7 +9,7 @@ test:
     - sleep 5
   override:
     - npm test
-    deployment:
+  deployment:
       staging:
         branch: master
         heroku:
