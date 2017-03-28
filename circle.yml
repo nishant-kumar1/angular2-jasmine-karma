@@ -9,8 +9,8 @@ test:
     - sleep 5
   override:
     - npm test
-  deployment:
-      staging:
-        branch: master
-        heroku:
-          appname: angular2-jasmine-karma
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: angular2-jasmine-karma
