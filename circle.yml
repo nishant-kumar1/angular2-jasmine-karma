@@ -13,4 +13,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: angular2-jasmine-karma-demo
+      appname: myjasminedemo1
